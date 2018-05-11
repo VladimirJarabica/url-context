@@ -1,0 +1,21 @@
+// @flow
+import * as React from "react";
+
+export type Url = {
+  [key: string]: string
+};
+
+export type makeQuery = (params: Url) => string
+export type parseQuery = (query: string) => Url
+
+export type UrlProviderProps = {
+  pushUrl: string => void,
+  children: React.Node | React.Node[]
+};
+
+export type UrlProviderState = {
+  params: Url
+};
+
+export type addParam = (key: string, param: string) => void;
+export type removeParam = (key: string) => void;

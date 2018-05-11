@@ -1,0 +1,4 @@
+{
+  "presets": ["env", "stage-2", "flow"],
+  "plugins": ["ramda", "transform-class-properties", "transform-react-jsx"]
+}

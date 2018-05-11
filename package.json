@@ -1,0 +1,28 @@
+{
+  "name": "url-context",
+  "version": "0.0.1",
+  "main": "lib/main.js",
+  "repository": "https://github.com/VladimirJarabica/url-context.git",
+  "author": "VladimirJarabica <vladojarabica@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "flow:test": "flow check",
+    "example:simple-param": "parcel examples/simple-param/index.html"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0",
+    "react": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-plugin-ramda": "^1.6.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "flow-bin": "^0.72.0",
+    "parcel-bundler": "^1.8.1",
+    "prettier": "^1.12.1",
+    "react-dom": "^16.3.2"
+  }
+}
