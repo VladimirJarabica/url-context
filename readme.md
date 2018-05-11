@@ -1,6 +1,11 @@
 # Url context
 Helper utility for managing url params using React context API
 
+## Instalation
+`npm install --save url-context`
+or
+`yarn add url-context`
+
 ## Usage
 ### Provider
 ```javascript
@@ -54,3 +59,7 @@ const App = (props) =>
     </button>
   </div>
 ```
+
+## Examples
+For running particular example run one of commands:
+`yarn example:simple-param`
