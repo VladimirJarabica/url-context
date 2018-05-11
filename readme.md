@@ -21,10 +21,6 @@ ReactDOM.render(
 ```
 
 ### Connect Consumer
-Inside _Consumer component_ you'll have access to prop:
-- `state` - object of `key: value` pair of params in url
-- `addParam` - function taking `key: string` and `value> string` to be set in url
-- `removeParam` - function taking `key: string` of param to be removed from url
 ```javascript
 const Root = () =>
   <UrlConsumer>
@@ -37,7 +33,10 @@ const Root = () =>
     )}
   </UrlConsumer>
 ```
-Then app can access those props:
+Inside _Consumer component_ you'll have access to prop:
+- `state` - object of `key: value` pair of params in url
+- `addParam` - function taking `key: string` and `value> string` to be set in url
+- `removeParam` - function taking `key: string` of param to be removed from url
 ```javascript
 const App = (props) =>
   <div>
