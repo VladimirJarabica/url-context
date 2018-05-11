@@ -49,7 +49,7 @@ const App = (props) =>
       onClick={() =>
         props.addParam("number", props.state.number - 1)}
     >Take 1</button>
-    <button onClick={() => props.remove("number")}>
+    <button onClick={() => props.removeParam("number")}>
       Remove
     </button>
   </div>
