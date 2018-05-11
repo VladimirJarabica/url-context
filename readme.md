@@ -39,7 +39,7 @@ const Root = () =>
   </UrlConsumer>
 ```
 Inside _Consumer component_ you'll have access to props:
-- `state` - object of `key: value` pair of params in url
+- `state` - object of `key: value` pairs of params in url
 - `addParam` - function taking `key: string` and `value> string` to be set in url
 - `removeParam` - function taking `key: string` of param to be removed from url
 ```javascript
