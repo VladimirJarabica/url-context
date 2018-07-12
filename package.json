@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "flow:test": "flow check",
-    "example:simple-param": "parcel examples/simple-param/index.html"
+    "example:simple-param": "parcel examples/simple-param/index.html",
+    "build": "babel src -d lib --ignore **/*.spec.js"
   },
   "dependencies": {
     "ramda": "^0.25.0",
