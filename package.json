@@ -1,7 +1,7 @@
 {
   "name": "url-context",
   "version": "0.0.4",
-  "main": "lib/main.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/VladimirJarabica/url-context.git",
   "author": "VladimirJarabica <vladojarabica@gmail.com>",
   "license": "MIT",
